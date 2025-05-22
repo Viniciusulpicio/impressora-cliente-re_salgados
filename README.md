@@ -66,7 +66,7 @@ Isso instalará todos os arquivos necessários para o funcionamento do sistema.
 
 ## ⚙️ Configurar o Sistema
 
-Se o nome da sua impressora **não for `knup`**, altere essa linha no arquivo `index.js`:
+Se o nome da sua impressora **não for `knup`**, altere essa linha no arquivo `cliente-impressora-local.js`:
 
 ```javascript
 interface: '\\localhost\knup',
@@ -90,7 +90,7 @@ interface: '\\localhost\minha-impressora',
 2. Execute:
 
 ```bash
-node index.js
+node cliente-impressora-local.js
 ```
 
 > ❌ Se fechar o terminal, o sistema para.
